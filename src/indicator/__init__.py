@@ -9,6 +9,7 @@ from gi.repository import Gtk as gtk
 from gi.repository import AppIndicator3 as appindicator
 from gi.repository import Notify as notify
 
+# Notes
 # DFP9 = Samsung TV
 # DFP5 = NEC Monitor
 # DFP11 = Asus Monitor
@@ -119,10 +120,6 @@ def ChangeSourceToPC(_):
 def ExitIndicator(_):
     notify.uninit()
     gtk.main_quit()
-    
-# def ExitIndicator(_):
-#     notify.uninit()
-#     gtk.main_quit()
    
 # Finish 
 if __name__ == "__main__":
